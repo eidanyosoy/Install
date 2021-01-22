@@ -221,7 +221,7 @@ if [[ $(lsb_release -si) == "Debian" ]]; then
 	add-apt-repository main >/dev/null 2>&1
 	add-apt-repository non-free >/dev/null 2>&1
 	add-apt-repository contrib >/dev/null 2>&1
-	wget -qN https://raw.githubusercontent.com/MHA-Team/Install/master/source/ansible-debian-ansible.list /etc/apt/sources.list.d/
+	wget -qN https://raw.githubusercontent.com/eidanyosoy/Install/master/source/ansible-debian-ansible.list /etc/apt/sources.list.d/
 elif [[ $(lsb_release -si) == "Ubuntu" ]]; then
 	add-apt-repository main >/dev/null 2>&1
 	add-apt-repository universe >/dev/null 2>&1
@@ -286,8 +286,8 @@ rm -rf /opt/pgstage/place.holder >/dev/null 2>&1
 edition=master
 ##fast change the editions
 echo -ne '#######                   (30%)\r'
-git clone -b $edition --single-branch https://github.com/MHA-Team/Install.git /opt/pgstage 1>/dev/null 2>&1
-git clone https://github.com/MHA-Team/PTS-Update.git /opt/ptsupdate 1>/dev/null 2>&1
+git clone -b $edition --single-branch https://github.com/eidanyosoy/Install.git /opt/pgstage 1>/dev/null 2>&1
+git clone https://github.com/eidanyosoy/PTS-Update.git /opt/ptsupdate 1>/dev/null 2>&1
 echo -ne '##########                (40%)\r'
 mkdir -p /var/plexguide/logs
 echo "" >/var/plexguide/server.ports
