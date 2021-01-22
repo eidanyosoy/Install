@@ -7,8 +7,8 @@
 ################################################################################
 ### FUNCTIONS START #####################################################
 ###################################
-old=https://github.com/PTS-Team/
-new=https://github.com/MHA-Team/
+old=https://github.com/MHA-Team/
+new=https://github.com/eidanyosoy/
 
 sudocheck() {
     if [[ $EUID -ne 0 ]]; then
@@ -59,7 +59,7 @@ tee <<-EOF
 ✅ Migration Complete!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-You have successfully migrated to the /MHA-Team/ project repository.
+You have successfully migrated to the /eidanyosoy/ project repository.
 Running ptsupdate should now work along with any redeployment of
 traefik, shield, clone and so forth.
 
