@@ -34,15 +34,6 @@ and we can refuse support at our discretion
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
-timer
-doneokay
-}
-timer() {
-seconds=5; date1=$((`date +%s` + $seconds)); 
-while [ "$date1" -ge `date +%s` ]; do 
-  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%H:%M:%S)\r"; 
-done
-}
 existpg() {
 file="/opt/plexguide/menu/pg.yml"
   if [[ -f $file ]]; then
