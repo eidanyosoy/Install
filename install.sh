@@ -131,15 +131,6 @@ tee <<-EOF
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 By installing, you are agreeing to the terms and
 conditions of the GNUv3 License!
-
-Everyone is welcome and everyone can help make it better,
-so we like to greet you as a new / old user
-
-		┌─────────────────────────────────────┐
-		│                                     |
-		| A special thanks to MrDoob and Admin|
-		└─────────────────────────────────────┘
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
 sleep 0.5
